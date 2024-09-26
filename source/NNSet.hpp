@@ -15,8 +15,10 @@
 class NNSet
 {
 private:
+  size_t _size;
   unsigned int _maxVal;
-  unsigned int _elements; 
+  unsigned int  *  _elements; 
+  unsigned int _arySize; 
 public:
   NNSet();
   NNSet(unsigned int biggestElementPossible);
@@ -43,6 +45,7 @@ public:
   // you may wish to add some more private methods below, but you
   // do not have to
 private:
+  unsigned int findPos(unsigned int toFind); 
 };
 
 #endif

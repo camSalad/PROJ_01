@@ -45,7 +45,7 @@ public:
   // you may wish to add some more private methods below, but you
   // do not have to
 private:
-  unsigned int findPos(unsigned int toFind); 
+  void copyAry(unsigned int * toCopy); 
 };
 
 #endif
